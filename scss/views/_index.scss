@@ -1,0 +1,34 @@
+/*inicio*/ 
+  
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  h2, h3, a {
+	color: #34495e;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  .grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Dos columnas de ancho igual */
+	grid-template-rows: 1fr 1fr 1fr; /* Tres filas de altura igual */
+	gap: 10px; /* Espacio entre las celdas */
+	height: 400px; /* Altura del contenedor */
+  }
+  
+  .parrafo {
+	background-color: #e0e0e0;
+	padding: 20px;
+  }
+  
+  .imgParrafo {
+	background-color: #e0e0e0;
+	padding: 20px;
+  }
+  

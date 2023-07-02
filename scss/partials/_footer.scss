@@ -1,0 +1,42 @@
+footer{
+	width: 100%;
+	padding: 2rem 8%;
+	background-color: #FF66AB;
+	@include flex (column, nowrap, center, center, 0px );
+}
+.footerIcon{
+	height: 100px;
+	margin-bottom: 1rem;
+}
+.social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+
+}
+.footerMenu{
+	@extend .social;
+	list-style-type: none;
+	color: white;
+	font-size: 18px;
+}
+.logos{
+	width: 150px;
+}
+.menu-item{
+	margin: 1rem 1.5rem;
+	cursor: pointer;
+	opacity: 0.7;
+	&:hover{
+		opacity: 1;
+		text-decoration: underline;
+		color: white;		
+	}
+}
+.copy{
+	color: #f2f2f2;
+	opacity: 0.2;
+	text-align: center;
+}

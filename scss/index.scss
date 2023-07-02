@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100&display=swap);
+/*misc*/
+@import "./misc/normalize";
+@import "./misc/mixins";
+/*Partials*/
+@import "./partials/header";
+@import "./partials/footer";
+/*Views*/
+@import "./views/sobre_nosotros";
+@import "./views/contacto";
+@import "./views/adoptar";
+@import "./views/index";
+@import "./views/galeria";
+/**/

@@ -1,0 +1,80 @@
+.articleC {
+	padding: auto;
+	@include flexall (column, wrap, start, center ,center,center,0px);
+	margin: auto;
+	width: 100%;
+	background: #FFD9E3;
+	border-radius: 4px;
+	color: white;
+	min-height: 1600px;
+	font-family: 'calibri';
+	box-shadow: 7px 13px 37px #000;
+
+	p {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 1em;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		&:hover {
+			color: white;
+			text-decoration: underline;
+
+		}
+	}
+	.botons {
+		width: 100%;
+		background: #FF66AB;
+		border: none;
+		padding: 12px;
+		color: white;
+		margin: 16px 0;
+		font-size: 16px;
+		width: 100%;
+	}
+	h2 {
+		text-align: center;
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+}
+
+.formContainer {
+	width: 100vh;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	.ImgText {  
+		@include flexall (column, wrap, center, center,center,center,0px);
+		padding: 10px 100px;
+	
+	}
+	.formInput {
+		width: 80vh;
+		background: #bec6ce;
+		padding: 10px;
+		border-radius: 4px;
+		border: 1px solid #FF66AB;
+		font-size: 18px;
+		color: white;
+		margin-bottom: 16px;
+	
+	}
+	.formTextArea {
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		@include sizes (75vh, auto);
+		background: #bec6ce;
+		color: white;
+		min-height: 200px;
+		min-width: 600px;
+		margin-bottom: 40px;
+	}
+}
+

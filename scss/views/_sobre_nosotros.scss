@@ -1,0 +1,87 @@
+.articleC {
+	padding: auto;
+	@include flexall (column, wrap, center, center,center,center,0px);
+	margin: auto;
+	width: 100%;
+	background: #15003b;
+	border-radius: 4px;
+	color: white;
+	min-height: 1400px;
+	font-family: 'calibri';
+	box-shadow: 7px 13px 37px #000;
+
+	p {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 1em;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		&:hover {
+			color: white;
+			text-decoration: underline;
+
+		}
+	}
+	.botons {
+		width: 100%;
+		background: #1f53c5;
+		border: none;
+		padding: 12px;
+		color: white;
+		margin: 16px 0;
+		font-size: 16px;
+		width: 100%;
+	}
+	h2 {
+		text-align: center;
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+}
+
+.formContainer {
+	width: 100vh;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	.ImgText {  
+		@include flexall (column, wrap, center, center,center,center,0px);
+		padding: 10px 100px;
+	
+	}
+	.formInput {
+		width: 80vh;
+		background: #24303c;
+		padding: 10px;
+		border-radius: 4px;
+		border: 1px solid #1f53c5;
+		font-size: 18px;
+		color: white;
+		margin-bottom: 16px;
+	
+	}
+	.formTextArea {
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		width: 75vh;
+		background: #24303c;
+		color: white;
+		min-height: 200px;
+		min-width: 600px;
+		margin-bottom: 40px;
+	}
+}
+
+.parrafo {
+	text-align: justify;
+}
+.imgParrafo{
+	width: 1000px;
+	height: 667px;
+}

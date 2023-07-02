@@ -1,0 +1,27 @@
+.bloque1 {
+	background-color: #FF66AB;
+	text-align: left;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+  }
+  .bloque1 .barraSup {
+	line-height: 1.6;
+	color: white;
+  }
+
+@media (max-width:950px){
+	header{
+		flex-direction: column;
+
+	}
+}
+.navbar-hover {
+	background-color: #FFB3D5;
+  }
+  .navbar-hover:hover {
+	background-color: #FFB3D5;
+  }
